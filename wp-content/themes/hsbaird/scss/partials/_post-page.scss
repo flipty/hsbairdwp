@@ -1,0 +1,94 @@
+.page-template-default, .single-post {
+  h1 {
+    color: $color-neon;
+    background: $color-forest;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1em;
+  }
+  blockquote {
+    background: $color-fatigues;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px 20px;
+    max-width: 80%;
+    line-height: 1.5em;
+    color: $white;
+  }
+  main .post-content, main.post-listing {
+      p, ul, ul li {
+      line-height: 1.7em;
+      font-size: 18px;
+      a {
+        color: $color-forest;
+        font-weight: bold;
+      }
+    }
+  }
+  .post-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    @include bp(mobile){
+      display: block;
+    }
+    .post-content {
+      max-width: 700px;
+      img {
+        height: auto;
+      }
+    }
+    .post-listing {
+      width: 300px;
+      background: darken($color-keylime, 15%);
+      padding: 15px;
+      margin-left: 15px;
+      margin-top: 25px;
+      border-top-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      h4 {
+        background: $color-fatigues;
+        color: lighten($color-keylime, 10%);
+        padding: 0.5em 1em 0.33em 1em;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      ul {
+        padding-left: 0;
+        list-style-type: none;
+        li {
+          padding-bottom: 10px;
+          border-bottom: solid 1px $color-fatigues;
+          margin-bottom: 10px;
+          a {
+            color: $color-darkforest;
+            font-weight: bold;
+            font-size: 14px;
+            &:hover {
+              color: $color-forest;
+            }
+          }
+        }
+      }
+      @include bp(mobile){
+        width: calc(100% - 30px);
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.wp-block-image, .wp-block-media-text__media {
+  img {
+    height: auto;
+  }
+}
+
+.sptp-member-social.rounded ul li a {
+  color: $white !important;
+}

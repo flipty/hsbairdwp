@@ -1,0 +1,675 @@
+@media only screen and (min-width: 1024px) {
+  /* line 43, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_variables.scss */
+  .mobile-only {
+    display: none !important;
+  }
+}
+
+/* line 1, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+html {
+  background: #2f3c34;
+}
+
+/* line 5, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 11, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  body.admin-bar .nav-trigger {
+    top: 53px;
+  }
+}
+
+/* line 18, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+/* line 22, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+main {
+  background: #ffffff;
+  padding: 25px 0;
+}
+
+/* line 27, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 27, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 36, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header {
+  background: #589d62;
+}
+
+/* line 38, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* line 43, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .container a.branding {
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 42px;
+  white-space: nowrap;
+  letter-spacing: -0.05em;
+}
+
+/* line 50, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .container a.branding span {
+  color: #c6dc93;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 43, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  header .container a.branding {
+    font-size: 20px;
+    letter-spacing: -0.025em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 60, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  header .container a.branding span {
+    margin-left: -4px;
+  }
+}
+
+/* line 66, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .container ul.header-nav li {
+  margin-left: 15px;
+}
+
+/* line 68, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .container ul.header-nav li a {
+  padding-top: 50px;
+  display: block;
+  letter-spacing: -0.025em;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 68, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  header .container ul.header-nav li a {
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 65, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  header .container ul.header-nav {
+    padding-bottom: 15px;
+  }
+}
+
+/* line 82, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .nav-trigger {
+  position: absolute;
+  top: 7px;
+  right: 15px;
+}
+
+/* line 86, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .nav-trigger a {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 90, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .nav-trigger a span {
+  display: block;
+  border-radius: 3px;
+  height: 3px;
+  width: 100%;
+  margin: 5px 0;
+  background: #b9f925;
+  transition: 500ms all;
+}
+
+/* line 101, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .nav-trigger a.active span.top {
+  transform: rotate(45deg);
+  margin-top: 15px;
+}
+
+/* line 105, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .nav-trigger a.active span.mid {
+  opacity: 0;
+  width: 0;
+}
+
+/* line 109, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header .nav-trigger a.active span.bot {
+  transform: rotate(-45deg);
+  margin-top: -15px;
+}
+
+/* line 119, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+footer {
+  padding-bottom: 100px;
+}
+
+/* line 121, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+footer .container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 126, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+footer .container a.branding {
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: -0.05em;
+  margin-top: 15px;
+}
+
+/* line 133, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+footer .container a.branding span {
+  color: #c6dc93;
+  display: inline-block;
+  margin-left: -5px;
+}
+
+/* line 140, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+footer .container a.branding-parent img {
+  width: 100px;
+  position: relative;
+  top: 20px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 140, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  footer .container a.branding-parent img {
+    width: 75px;
+    top: 12px;
+    margin-right: 15px;
+  }
+}
+
+/* line 153, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+footer .container ul.footer-nav li {
+  margin-right: 3em;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 153, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  footer .container ul.footer-nav li {
+    overflow: hidden;
+    margin-right: 0;
+  }
+}
+
+/* line 159, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+footer .container ul.footer-nav li a {
+  padding-top: 10px;
+  display: block;
+}
+
+/* line 169, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header ul.header-nav, header ul.footer-nav, footer ul.header-nav, footer ul.footer-nav {
+  display: flex;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 174, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header ul.header-nav li, header ul.footer-nav li, footer ul.header-nav li, footer ul.footer-nav li {
+  list-style-type: none;
+  list-style-image: none;
+  position: relative;
+}
+
+/* line 178, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header ul.header-nav li a, header ul.footer-nav li a, footer ul.header-nav li a, footer ul.footer-nav li a {
+  color: #b9f925;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: -3px;
+  white-space: nowrap;
+}
+
+/* line 184, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header ul.header-nav li a:hover, header ul.footer-nav li a:hover, footer ul.header-nav li a:hover, footer ul.footer-nav li a:hover {
+  color: #d9fc88;
+}
+
+/* line 188, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header ul.header-nav li ul.sub-menu, header ul.footer-nav li ul.sub-menu, footer ul.header-nav li ul.sub-menu, footer ul.footer-nav li ul.sub-menu {
+  position: absolute;
+  border-top: solid 3px #b9f925;
+  background: #1a512e;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 4px;
+  display: none;
+}
+
+/* line 196, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header ul.header-nav li ul.sub-menu li, header ul.footer-nav li ul.sub-menu li, footer ul.header-nav li ul.sub-menu li, footer ul.footer-nav li ul.sub-menu li {
+  margin-left: 0;
+}
+
+/* line 198, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header ul.header-nav li ul.sub-menu li a, header ul.footer-nav li ul.sub-menu li a, footer ul.header-nav li ul.sub-menu li a, footer ul.footer-nav li ul.sub-menu li a {
+  padding-top: 0;
+  padding-bottom: 20px;
+  white-space: nowrap;
+  display: block;
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  letter-spacing: -0.025em;
+}
+
+/* line 209, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header ul.header-nav li ul.sub-menu li:first-child a, header ul.footer-nav li ul.sub-menu li:first-child a, footer ul.header-nav li ul.sub-menu li:first-child a, footer ul.footer-nav li ul.sub-menu li:first-child a {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 188, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  header ul.header-nav li ul.sub-menu, header ul.footer-nav li ul.sub-menu, footer ul.header-nav li ul.sub-menu, footer ul.footer-nav li ul.sub-menu {
+    display: block;
+    position: static;
+    border-top: none;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+  /* line 222, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  header ul.header-nav li ul.sub-menu li a, header ul.footer-nav li ul.sub-menu li a, footer ul.header-nav li ul.sub-menu li a, footer ul.footer-nav li ul.sub-menu li a {
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+  }
+  /* line 229, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  header ul.header-nav li ul.sub-menu li:first-child a, header ul.footer-nav li ul.sub-menu li:first-child a, footer ul.header-nav li ul.sub-menu li:first-child a, footer ul.footer-nav li ul.sub-menu li:first-child a {
+    padding-top: 12px;
+  }
+}
+
+/* line 238, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+header ul.header-nav li.menu-item-has-children:hover ul.sub-menu, header ul.footer-nav li.menu-item-has-children:hover ul.sub-menu, footer ul.header-nav li.menu-item-has-children:hover ul.sub-menu, footer ul.footer-nav li.menu-item-has-children:hover ul.sub-menu {
+  display: block;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 169, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  header ul.header-nav, header ul.footer-nav, footer ul.header-nav, footer ul.footer-nav {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -700px;
+    background: #1a512e;
+    width: 100%;
+    transition: 500ms all;
+    border-bottom: solid 4px #b9f925;
+    z-index: 9999;
+  }
+  /* line 254, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  header ul.header-nav.active, header ul.footer-nav.active, footer ul.header-nav.active, footer ul.footer-nav.active {
+    top: 44px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 263, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  footer .container {
+    display: block;
+  }
+  /* line 265, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  footer .container ul.footer-nav {
+    display: block;
+    position: static;
+    background: #2f3c34;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  /* line 272, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_global.scss */
+  footer .container ul.footer-nav li:last-child {
+    padding-bottom: 20px;
+  }
+}
+
+/* line 2, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default h1, .single-post h1 {
+  color: #b9f925;
+  background: #1a512e;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+/* line 14, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default blockquote, .single-post blockquote {
+  background: #589d62;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px 20px;
+  max-width: 80%;
+  line-height: 1.5em;
+  color: #ffffff;
+}
+
+/* line 24, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default main .post-content p, .page-template-default main .post-content ul, .page-template-default main .post-content ul li, .page-template-default main.post-listing p, .page-template-default main.post-listing ul, .page-template-default main.post-listing ul li, .single-post main .post-content p, .single-post main .post-content ul, .single-post main .post-content ul li, .single-post main.post-listing p, .single-post main.post-listing ul, .single-post main.post-listing ul li {
+  line-height: 1.7em;
+  font-size: 18px;
+}
+
+/* line 27, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default main .post-content p a, .page-template-default main .post-content ul a, .page-template-default main .post-content ul li a, .page-template-default main.post-listing p a, .page-template-default main.post-listing ul a, .page-template-default main.post-listing ul li a, .single-post main .post-content p a, .single-post main .post-content ul a, .single-post main .post-content ul li a, .single-post main.post-listing p a, .single-post main.post-listing ul a, .single-post main.post-listing ul li a {
+  color: #1a512e;
+  font-weight: bold;
+}
+
+/* line 33, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default .post-container, .single-post .post-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 33, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+  .page-template-default .post-container, .single-post .post-container {
+    display: block;
+  }
+}
+
+/* line 40, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default .post-container .post-content, .single-post .post-container .post-content {
+  max-width: 700px;
+}
+
+/* line 42, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default .post-container .post-content img, .single-post .post-container .post-content img {
+  height: auto;
+}
+
+/* line 46, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default .post-container .post-listing, .single-post .post-container .post-listing {
+  width: 300px;
+  background: #a8c959;
+  padding: 15px;
+  margin-left: 15px;
+  margin-top: 25px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* line 54, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default .post-container .post-listing h4, .single-post .post-container .post-listing h4 {
+  background: #589d62;
+  color: #dae8ba;
+  padding: 0.5em 1em 0.33em 1em;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* line 61, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default .post-container .post-listing ul, .single-post .post-container .post-listing ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* line 64, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default .post-container .post-listing ul li, .single-post .post-container .post-listing ul li {
+  padding-bottom: 10px;
+  border-bottom: solid 1px #589d62;
+  margin-bottom: 10px;
+}
+
+/* line 68, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default .post-container .post-listing ul li a, .single-post .post-container .post-listing ul li a {
+  color: #2f3c34;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* line 72, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.page-template-default .post-container .post-listing ul li a:hover, .single-post .post-container .post-listing ul li a:hover {
+  color: #1a512e;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 46, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+  .page-template-default .post-container .post-listing, .single-post .post-container .post-listing {
+    width: calc(100% - 30px);
+    margin-left: 0;
+  }
+}
+
+/* line 87, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.wp-block-image img, .wp-block-media-text__media img {
+  height: auto;
+}
+
+/* line 92, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_post-page.scss */
+.sptp-member-social.rounded ul li a {
+  color: #ffffff !important;
+}
+
+/* line 2, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero {
+  background: #1a512e;
+  border-top-left-radius: 40px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 2, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+  .page-template-template-home .hero {
+    display: block;
+    border-bottom-right-radius: 40px;
+  }
+}
+
+/* line 12, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .content {
+  width: 100%;
+}
+
+/* line 14, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .content .inner {
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+/* line 17, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .content .inner h1 {
+  font-size: 105px;
+  line-height: 0.8em;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 17, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+  .page-template-template-home .hero .content .inner h1 {
+    font-size: 42px;
+    margin-top: 15px;
+  }
+}
+
+/* line 28, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .content .inner p {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 28, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+  .page-template-template-home .hero .content .inner p {
+    font-size: 20px;
+  }
+}
+
+/* line 35, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .content .inner p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 38, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .content .inner p a strong {
+  color: #b9f925;
+}
+
+/* line 41, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .content .inner p a:hover {
+  color: #b9f925;
+}
+
+/* line 43, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .content .inner p a:hover strong {
+  color: #ffffff;
+}
+
+/* line 51, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .articles {
+  min-width: 375px;
+  width: 375px;
+  margin-right: 4px;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 51, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+  .page-template-template-home .hero .articles {
+    width: 100%;
+    min-width: inherit;
+  }
+}
+
+/* line 59, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .articles ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 4px;
+  padding-left: 0;
+}
+
+/* line 64, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .articles ul li {
+  background: #589d62;
+  padding: 20px;
+  margin-bottom: 4px;
+}
+
+/* line 68, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .articles ul li h4 {
+  line-height: 1.75em;
+}
+
+/* line 71, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .articles ul li p {
+  line-height: 1.7em;
+}
+
+/* line 74, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .articles ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 77, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .hero .articles ul li a:hover {
+  color: #b9f925;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 82, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+  .page-template-template-home .hero .articles ul li:last-child {
+    border-bottom-right-radius: 40px;
+  }
+}
+
+/* line 91, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .extra {
+  border-bottom-right-radius: 40px;
+  padding-bottom: 70px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+  background-position: 0 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 99, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .extra .inner {
+  padding: 0 50px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  margin-top: -20px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  background: linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0) 75%);
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 99, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+  .page-template-template-home .extra .inner {
+    display: block;
+    padding: 0 25px;
+    padding-bottom: 100px;
+  }
+}
+
+/* line 113, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .extra .inner h2, .page-template-template-home .extra .inner h3, .page-template-template-home .extra .inner h4 {
+  font-size: 32px;
+  white-space: nowrap;
+}
+
+/* line 117, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+.page-template-template-home .extra .inner p {
+  padding-left: 50px;
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 117, ../../../../../Users/tesch/Development/ecolomidwest/wp-content/themes/ecolo/scss/partials/_home.scss */
+  .page-template-template-home .extra .inner p {
+    padding-left: 0;
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=ecolo.css.map */
