@@ -5,15 +5,17 @@
       'menu_class' => 'footer-nav',
       'container' => 'nav'
     )); ?>
-    <div class="logos">
-      <a href="https://horsdefrance.eelv.fr/" target="_blank" class="branding-parent"><img src="/wp-content/themes/ecolo/eelv.svg" alt="eelv.fr"></a>
-      <a href="<?php echo get_site_url();?>" class="branding">ECOLOS <span>midwest</span></a>      
+    <div class="logo">
+      <a href="/"><img src="/wp-content/themes/hsbaird/images/logo-mason-gold.gif" alt=""></a>
+    </div>
+    <div class="copyright">
+      Copyright &copy; <?php echo date('Y');?> Henry S. Baird #174 Masonic Lodge
     </div>
   </div>
 </footer>
 
-<script src="/wp-content/themes/ecolo/js/vendor/jquery-3.4.1.min.js"></script>
-<script src="/wp-content/themes/ecolo/js/ecolo.js"></script>
+<script src="/wp-content/themes/hsbaird/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="/wp-content/themes/hsbaird/js/hsbaird.js"></script>
 <?php wp_footer(); ?>
 
 </body>

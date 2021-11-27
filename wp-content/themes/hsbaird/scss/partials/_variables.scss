@@ -1,4 +1,4 @@
-@mixin bp($point) {
+@mixin breakpoint($point) {
   @if $point == mobile {
     @media only screen and (max-width: 992px) {
       @content;
@@ -26,13 +26,9 @@
   }
 }
 
-$color-neon: #b9f925;
-$color-keylime: #c6dc93;
-$color-fatigues: #589d62;
-$color-forest: #1a512e;
-$color-darkforest: #2f3c34;
 $white: #ffffff;
 $black: #000000;
+$gold: #FFCC00;
 $black90: rgba(0,0,0,0.9);
 $black75: rgba(0,0,0,0.75);
 $black50: rgba(0,0,0,0.5);
@@ -41,7 +37,7 @@ $black15: rgba(0,0,0,0.15);
 $black10: rgba(0,0,0,0.1);
 
 .mobile-only {
-  @include bp(desktop){
+  @include breakpoint(desktop){
     display: none !important;
   }
 }

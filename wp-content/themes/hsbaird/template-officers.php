@@ -1,6 +1,6 @@
 <?php
 
-/* Template Name: Home Page */
+/* Template Name: Officers Page */
 
 get_header();
 
@@ -11,13 +11,7 @@ if(have_posts()):
 <main>
 	<div class="container">
 
-		<section class="hero">
-			<div class="content">
-				<div class="inner">
-				<?php the_content();?>
-				</div>
-			</div>
-		</section>
+		
 
 	</div>
 </main>

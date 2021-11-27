@@ -1,6 +1,6 @@
-//ecolo.js
+//hsbaird.js
 
-var ecolo = {
+var hsbaird = {
 
     hamburger: function(){
       var $hamburger = $('.nav-trigger a');
@@ -15,5 +15,5 @@ var ecolo = {
 }
 
 $(document).ready(function(){
-    ecolo.hamburger();
+    hsbaird.hamburger();
 });
