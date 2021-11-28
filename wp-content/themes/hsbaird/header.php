@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri(); ?>/css/hsbaird.css?ts=<?php echo $ts;?>" rel="stylesheet" type="text/css">
+  
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -20,10 +21,12 @@
         <a href="/"><img src="/wp-content/themes/hsbaird/images/logo-mason-blue.gif" alt="Freemason Emblem"></a>
       </div>
       <div class="content">
+        <a href="/">
         <span class="title">Sturgeon Bay Masonic Center</span>
         <span class="subtitle">Masonic Lodge Sturgeon Bay</span>
         <span class="subinfo">Henry S. Baird #174 Masonic Lodge</span>
         <span class="subinfo">Honor Chapter #1 Order of the Eastern Star (OES)</span>
+        </a>
         <p>
           31 S Third Avenue
           PO BOX 86

@@ -4,7 +4,7 @@ add_action('init', 'hsbaird_create_post_types');
 
 function hsbaird_create_post_types() {
 
-  // Set up Contributors
+  // Set up Officers
   $officerLabels = array(
     'name' => 'Officers',
     'singular_name' => 'Officer',
@@ -34,7 +34,7 @@ function hsbaird_create_post_types() {
     )
   );
 
-  // Set up Comparison Tables
+  // Set up Newsletters
   $newsletterLabels = array(
     'name' => 'Newsletters',
     'singular_name' => 'Newsletter',
@@ -93,6 +93,7 @@ function hsbaird_create_post_types() {
     'rewrite' => array('slug' => 'steamboat')
     )
   );
+
 
 }
 
